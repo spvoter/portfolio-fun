@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/morda_logo.jpeg';
 
-const About = () => {
+function About() {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
@@ -13,15 +13,11 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            / / I am not your average developer
+             I am not your average degen/gym rat
           </p>
           <p className='py-2 text-gray-600'>
-            I have spent the last 12 years in the fire service working as a
-            professional firefighter/paramedic. I have always had a knack for
-            technology and working with computers. In 2019 I started working
-            with HTML and CSS to make some minor edits on a small business
-            website that I was operating. What I thought was just a few small
-            edits turned into a love for programming.
+            I have spent the last 12 days taking a poop. Dont get me wrong it was a fat one. <br></br>
+            Jk once i eat i absorb every single molecule of protein and fat and even carb. I am literal beef well-ington.
           </p>
           <p className='py-2 text-gray-600'>
             Fascinated with how intricate programming can be I was quickly drawn
@@ -43,6 +39,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+}
 
 export default About;

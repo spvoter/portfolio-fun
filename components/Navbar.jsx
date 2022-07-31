@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/morda_about.jpeg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -60,9 +60,9 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='125'
+              width='50'
               height='50'
-              className='cursor-pointer'
+              className='cursor-pointer rounded-full object-cover'
             />
           </a>
         </Link>
@@ -119,9 +119,10 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
+                    width='35'
                     height='35'
                     alt='/'
+                    className='rounded-full object-cover'
                   />
                 </a>
               </Link>
